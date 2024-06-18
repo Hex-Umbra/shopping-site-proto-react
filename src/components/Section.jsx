@@ -1,10 +1,11 @@
 import React from "react";
 import TwinkleStar from "./TwinkleStar.jsx";
+import MainImage from "./MainImage.jsx";
 
 export default function Section() {
   return (
-    <section className="max-w-full bg-[#F2F0F1] min-h-[663px] relative">
-      <div className=" h-full w-5/12 py-8 px-4 ml-20">
+    <section className="grid lg:grid-cols-2 bg-[#F2F0F1] max-h-[663px] relative overflow-hidden">
+      <div className=" h-full w-4/5 py-8 px-4 ml-20">
         <div className="mt-16">
           <h1 className="text-6xl font-bold">
             FIND CLOTHES THAT MATCHES YOUR STYLE
@@ -33,7 +34,10 @@ export default function Section() {
           </div>
         </div>
       </div>
-      <TwinkleStar/>
+      <div>
+        <TwinkleStar />
+        <MainImage />
+      </div>
     </section>
   );
 }

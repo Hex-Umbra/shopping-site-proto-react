@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar.jsx";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-center  items-center">
+    <nav className="z-10 flex justify-center  items-center">
       <div className="w-4/5 flex flex-wrap items-center justify-between ">
         <div>
           <a href="" className="self-center text-2xl font-bold">

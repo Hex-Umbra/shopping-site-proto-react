@@ -3,7 +3,7 @@ import React from "react";
 export default function TwinkleStar() {
   return (
     <>
-      <span className="absolute left-1/2 top-1/3">
+      <span className="absolute left-1/2 top-1/3 z-10">
         <svg
           width="56px"
           height="56px"
@@ -25,7 +25,7 @@ export default function TwinkleStar() {
           />
         </svg>
       </span>
-      <span className="absolute right-10 top-20">
+      <span className="absolute right-10 top-20 z-10">
         <svg
           width="104px"
           height="104px"
